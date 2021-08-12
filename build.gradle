@@ -1,0 +1,48 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+
+sourceCompatibility = 16
+version = '1.0'
+group = 'net.novatech'
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+
+repositories {
+    mavenCentral()
+ 	maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+ 	mavenLocal()
+    jcenter()
+    
+    
+}
+
+ext {
+    appName = "novaLibGDX"
+    gdxVersion = '1.10.0'
+    roboVMVersion = '2.3.12'
+    box2DLightsVersion = '1.5'
+    ashleyVersion = '1.7.3'
+    aiVersion = '1.8.2'
+    gdxControllersVersion = '2.1.0'
+    novaLibVersion = '1.0'
+}
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+artifacts {
+    archives sourcesJar
+}
+
+dependencies {
+	implementation "com.badlogicgames.gdx:gdx:$gdxVersion"
+	implementation "net.novatech:library:$novaLibVersion"
+}
+
+test {
+    systemProperties 'property': 'value'
+}
+
