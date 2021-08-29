@@ -1,2 +1,2 @@
 # novaLibGDX
- A library for making gamew with libgdx even easier
+ A library for making games with libgdx even easier
