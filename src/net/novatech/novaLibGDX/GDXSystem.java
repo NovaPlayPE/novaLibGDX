@@ -8,10 +8,11 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ObjectMap;
 
+import net.novatech.novaLibGDX.drawable.DrawingManager;
 import net.novatech.novaLibGDX.graphics.Atlas;
 import net.novatech.novaLibGDX.graphics.GraphicManager;
 import net.novatech.novaLibGDX.graphics.Graphics;
-
+import net.novatech.novaLibGDX.music.MusicManager;
 
 public class GDXSystem {
 	public static OrthographicCamera camera = new OrthographicCamera();
@@ -33,6 +34,8 @@ public class GDXSystem {
 	public static void dispose() {
 		Graphics.dispose();
 		GraphicManager.dispose();
+		DrawingManager.dispose();
+		MusicManager.dispose();
 
 		batch.dispose();
 
