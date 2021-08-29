@@ -8,6 +8,7 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ObjectMap;
 
+import net.novatech.novaLibGDX.graphics.Atlas;
 import net.novatech.novaLibGDX.graphics.GraphicManager;
 import net.novatech.novaLibGDX.graphics.Graphics;
 
@@ -16,6 +17,7 @@ public class GDXSystem {
 	public static OrthographicCamera camera = new OrthographicCamera();
 	public static Batch batch = new SpriteBatch();
 	public static BitmapFont font;
+	public static Atlas atlas;
 	public static int cameraScale = 1;
 
 	static {
