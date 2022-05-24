@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-sourceCompatibility = 16
+sourceCompatibility = 17
 version = '1.0'
 group = 'net.novatech'
 
