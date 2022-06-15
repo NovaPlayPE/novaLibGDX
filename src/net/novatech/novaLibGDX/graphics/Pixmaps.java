@@ -8,7 +8,7 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
 import java.nio.*;
 
-import net.novatech.library.math.Vector2;
+import net.novatech.library.math.vector.Vector2;
 import net.novatech.library.math.VectorUtils;
 import net.novatech.novaLibGDX.NovaGDX;
 

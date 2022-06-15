@@ -7,8 +7,8 @@ import com.badlogic.gdx.math.Matrix4;
 import com.badlogic.gdx.math.Quaternion;
 import com.badlogic.gdx.math.Rectangle;
 
-import net.novatech.library.math.Vector2;
-import net.novatech.library.math.Vector3f;
+import net.novatech.library.math.vector.Vector2;
+import net.novatech.library.math.vector.Vector3f;
 
 public class TempUtils {
 	public static final Vector2 v1 = new Vector2(0,0);

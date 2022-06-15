@@ -5,7 +5,7 @@ import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 
-import net.novatech.library.math.Vector2;
+import net.novatech.library.math.vector.Vector2;
 
 public abstract class Module extends InputAdapter{
 

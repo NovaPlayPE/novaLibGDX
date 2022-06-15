@@ -9,8 +9,8 @@ import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.ObjectMap;
 
-import net.novatech.library.math.Vector2;
-import net.novatech.library.math.Vector3f;
+import net.novatech.library.math.vector.Vector2;
+import net.novatech.library.math.vector.Vector3f;
 import static net.novatech.novaLibGDX.GDXSystem.batch;
 
 import net.novatech.novaLibGDX.GDXSystem;

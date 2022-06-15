@@ -12,6 +12,7 @@ import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.NumberUtils;
 
 import net.novatech.library.math.*;
+import net.novatech.library.math.vector.*;
 
 import net.novatech.novaLibGDX.GDXSystem;
 import static net.novatech.novaLibGDX.GDXSystem.batch;
